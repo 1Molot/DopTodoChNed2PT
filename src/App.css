@@ -1,0 +1,34 @@
+.App {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App > div {
+    margin: 10px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+}
+
+.goodPrice {
+    color: green;
+}
+
+.badPrice {
+    color: red;
+}
+
+.inCart {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.activeButton {
+    background: deepskyblue;
+}
